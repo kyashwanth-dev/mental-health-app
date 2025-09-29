@@ -12,7 +12,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["https://chatclient-kh67.onrender.com"],
+    origin: ["http://localhost:5173", "https://chatclient-kh67.onrender.com"],
     methods: ["GET", "POST"]
   }
 });
