@@ -11,7 +11,7 @@ import {
   Spacer
 } from "@chakra-ui/react";
 
-const socket = io("http://localhost:3000");
+const socket = io("");
 
 const colors = ["blue", "green", "red", "purple", "orange", "teal", "pink", "yellow"];
 
