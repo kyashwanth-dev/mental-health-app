@@ -5,7 +5,7 @@ const cors = require("cors");
 
 const app = express();
 app.use(cors());
-app.length('/', (req, res) => {
+app.get('/', (req, res) => {
   res.send("Chat server is running");
 });
 const server = http.createServer(app);
