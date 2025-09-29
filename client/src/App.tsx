@@ -76,7 +76,7 @@ function App() {
       ) : (
         <>
           <Flex w="100%" maxW="600px" align="center" mb={4}>
-            <Heading size="lg" color="blue.600">💬 Chakra Chat</Heading>
+            <Heading size="lg" color="blue.600">💬 Chatspac App</Heading>
             <Spacer />
           </Flex>
 
