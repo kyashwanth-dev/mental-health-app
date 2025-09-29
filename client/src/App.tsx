@@ -11,7 +11,7 @@ import {
   Spacer
 } from "@chakra-ui/react";
 
-const socket = io("");
+const socket = io("https://mental-health-app-sugt.onrender.com");
 
 const colors = ["blue", "green", "red", "purple", "orange", "teal", "pink", "yellow"];
 
